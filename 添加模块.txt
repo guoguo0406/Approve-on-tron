@@ -1,24 +1,24 @@
-²¨³¡£¨TRON£©ÈçºÎÌí¼ÓĞÂÄ£¿é£º
-java-tron²¿·Ö£º
-1£¬ÏÂÔØTRONÔ´Âë£ºgit clone https://github.com/tronprotocol/java-tron.git £»
+æ³¢åœºï¼ˆTRONï¼‰å¦‚ä½•æ·»åŠ æ–°æ¨¡å—ï¼š
+java-tronéƒ¨åˆ†ï¼š
+1ï¼Œä¸‹è½½TRONæºç ï¼šgit clone https://github.com/tronprotocol/java-tron.git ï¼›
 
-2£¬ĞŞ¸Ä java-tron\src\main\protos\core\Contract.proto Ìí¼ÓĞÂµÄcontract£»
-3£¬ĞŞ¸Ä java-tron\src\main\protos\core\tron.proto Ìí¼ÓĞÂµÄcontractÏûÏ¢Ìå£»
+2ï¼Œä¿®æ”¹ java-tron\src\main\protos\core\Contract.proto æ·»åŠ æ–°çš„contractï¼›
+3ï¼Œä¿®æ”¹ java-tron\src\main\protos\core\tron.proto æ·»åŠ æ–°çš„contractæ¶ˆæ¯ä½“ï¼›
 
-4£¬ÔÚ java-tron\src\main\java\org\tron\core\actuator ÖĞÌí¼ÓĞÂµÄcontractµÄÑéÖ¤£¬Ö´ĞĞº¯ÊıÎÄ¼ş£»
-5£¬ÔÚ java-tron\src\main\java\org\tron\core\capsule ÖĞÌí¼ÓĞÂµÄcontractµÄ½»Ò×·â×°ÎÄ¼ş£»
-6£¬ÔÚ java-tron\src\main\java\org\tron\core\db ÖĞÌí¼ÓĞÂµÄcontractµÄÊı¾İ´æ´¢ÎÄ¼ş£»
-7£¬ÔÚ java-tron\src\main\java\org\tron\core\services\http ÖĞÌí¼Ó¶ÔÍâµÄAPIÎÄ¼ş£¬°üÀ¨ÉèÖÃºÍ²éÑ¯ÎÄ¼ş£»
-8£¬ÔÚ java-tron\src\main\java\org\tron\core\interfaceOnSolidity\http ÖĞÌí¼Ósolidity½ÚµãµÄ²éÑ¯ÎÄ¼ş£»
+4ï¼Œåœ¨ java-tron\src\main\java\org\tron\core\actuator ä¸­æ·»åŠ æ–°çš„contractçš„éªŒè¯ï¼Œæ‰§è¡Œå‡½æ•°æ–‡ä»¶ï¼›
+5ï¼Œåœ¨ java-tron\src\main\java\org\tron\core\capsule ä¸­æ·»åŠ æ–°çš„contractçš„äº¤æ˜“å°è£…æ–‡ä»¶ï¼›
+6ï¼Œåœ¨ java-tron\src\main\java\org\tron\core\db ä¸­æ·»åŠ æ–°çš„contractçš„æ•°æ®å­˜å‚¨æ–‡ä»¶ï¼›
+7ï¼Œåœ¨ java-tron\src\main\java\org\tron\core\services\http ä¸­æ·»åŠ å¯¹å¤–çš„APIæ–‡ä»¶ï¼ŒåŒ…æ‹¬è®¾ç½®å’ŒæŸ¥è¯¢æ–‡ä»¶ï¼›
+8ï¼Œåœ¨ java-tron\src\main\java\org\tron\core\services\interfaceOnSolidity\http ä¸­æ·»åŠ solidityèŠ‚ç‚¹çš„æŸ¥è¯¢æ–‡ä»¶ï¼›
 
-9£¬ĞŞ¸Ä java-tron\src\main\java\org\tron\core\actuator\ActuatorFactory.javaµÄgetActuatorByContract£¬Ö§³ÖĞÂµÄcontract£»
-10£¬ĞŞ¸Ä java-tron\src\main\java\org\tron\core\services\http\FullNodeHttpApiService.java Ö§³ÖĞÂµÄAPI£»
-11£¬ĞŞ¸Ä java-tron\src\main\java\org\tron\core\interfaceOnSolidity\http\HttpApiOnSolidityService.java Ö§³ÖĞÂµÄAPI£»
-12£¬ĞŞ¸Ä java-tron\src\main\java\org\tron\core\db\manager.java Ìí¼ÓĞÂµÄÊı¾İ¶ÔÏó£»
-13£¬ĞŞ¸Ä java-tron\src\main\java\org\tron\core\capsule\TransactionCapsule.java getOwnerº¯ÊıÖ§³ÖĞÂµÄcontract£»
-14£¬ĞŞ¸Ä java-tron\src\main\java\org\tron\core\services\http\util.java printTransactionToJSON£¬packTransactionº¯ÊıÖ§³ÖĞÂµÄcontract
-15£¬ĞŞ¸Ä java-tron\src\main\java\org\tron\core\wallet.java Ìí¼ÓgetĞÂµÄcontract½Ó¿Ú£»
+9ï¼Œä¿®æ”¹ java-tron\src\main\java\org\tron\core\actuator\ActuatorFactory.javaçš„getActuatorByContractï¼Œæ”¯æŒæ–°çš„contractï¼›
+10ï¼Œä¿®æ”¹ java-tron\src\main\java\org\tron\core\services\http\FullNodeHttpApiService.java æ”¯æŒæ–°çš„APIï¼›
+11ï¼Œä¿®æ”¹ java-tron\src\main\java\org\tron\core\services\interfaceOnSolidity\http\solidity\HttpApiOnSolidityService.java æ”¯æŒæ–°çš„APIï¼›
+12ï¼Œä¿®æ”¹ java-tron\src\main\java\org\tron\core\db\manager.java æ·»åŠ æ–°çš„æ•°æ®å¯¹è±¡ï¼›
+13ï¼Œä¿®æ”¹ java-tron\src\main\java\org\tron\core\capsule\TransactionCapsule.java getOwnerå‡½æ•°æ”¯æŒæ–°çš„contractï¼›
+14ï¼Œä¿®æ”¹ java-tron\src\main\java\org\tron\core\services\http\util.java printTransactionToJSONï¼ŒpackTransactionå‡½æ•°æ”¯æŒæ–°çš„contract
+15ï¼Œä¿®æ”¹ java-tron\src\main\java\org\tron\core\wallet.java æ·»åŠ getæ–°çš„contractæ¥å£ï¼›
 
-Ê¹ÓÃtron-web²âÊÔÊ±£º
-1£¬tron-web\src\lib\transactionBuilder.js Ìí¼ÓĞÂµÄ½Ó¿Ú£¬µ÷ÓÃÁ´¶ËAPI¡£
-2£¬±àĞ´×Ô¼ºµÄ²âÊÔjsÎÄ¼ş¡£
+ä½¿ç”¨tron-webæµ‹è¯•æ—¶ï¼š
+1ï¼Œtron-web\src\lib\transactionBuilder.js æ·»åŠ æ–°çš„æ¥å£ï¼Œè°ƒç”¨é“¾ç«¯APIã€‚
+2ï¼Œç¼–å†™è‡ªå·±çš„æµ‹è¯•jsæ–‡ä»¶ã€‚
