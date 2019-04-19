@@ -1,0 +1,24 @@
+波场（TRON）如何添加新模块：
+java-tron部分：
+1，下载TRON源码：git clone https://github.com/tronprotocol/java-tron.git ；
+
+2，修改 java-tron\src\main\protos\core\Contract.proto 添加新的contract；
+3，修改 java-tron\src\main\protos\core\tron.proto 添加新的contract消息体；
+
+4，在 java-tron\src\main\java\org\tron\core\actuator 中添加新的contract的验证，执行函数文件；
+5，在 java-tron\src\main\java\org\tron\core\capsule 中添加新的contract的交易封装文件；
+6，在 java-tron\src\main\java\org\tron\core\db 中添加新的contract的数据存储文件；
+7，在 java-tron\src\main\java\org\tron\core\services\http 中添加对外的API文件，包括设置和查询文件；
+8，在 java-tron\src\main\java\org\tron\core\interfaceOnSolidity\http 中添加solidity节点的查询文件；
+
+9，修改 java-tron\src\main\java\org\tron\core\actuator\ActuatorFactory.java的getActuatorByContract，支持新的contract；
+10，修改 java-tron\src\main\java\org\tron\core\services\http\FullNodeHttpApiService.java 支持新的API；
+11，修改 java-tron\src\main\java\org\tron\core\interfaceOnSolidity\http\HttpApiOnSolidityService.java 支持新的API；
+12，修改 java-tron\src\main\java\org\tron\core\db\manager.java 添加新的数据对象；
+13，修改 java-tron\src\main\java\org\tron\core\capsule\TransactionCapsule.java getOwner函数支持新的contract；
+14，修改 java-tron\src\main\java\org\tron\core\services\http\util.java printTransactionToJSON，packTransaction函数支持新的contract
+15，修改 java-tron\src\main\java\org\tron\core\wallet.java 添加get新的contract接口；
+
+使用tron-web测试时：
+1，tron-web\src\lib\transactionBuilder.js 添加新的接口，调用链端API。
+2，编写自己的测试js文件。
